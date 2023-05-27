@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 10% auto;
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.container__top__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 17px;
+}
+
+.container__top__left__title {
+  font-size: 56px;
+  letter-spacing: -2px;
+  line-height: 48px;
+  font-weight: 700;
+  text-align: left;
+  color: #512051;
+  width: 445px;
+}
+
+.container__top__left__text {
+  color: #927b91;
+  width: 445px;
+  height: 75px;
+  line-height: 25px;
+  letter-spacing: -0.63px;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.container__top__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 50%;
+}
+
+.container__bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+.container__top__right__element{
+  background-color:hsl(300, 24%, 96%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  width: 445px;
+  height: 56px;
+  left: 735px;
+  top: 145px; 
+  margin-left: 25px;
+}
+
+.contianer__top__right__element__stars{
+  display: flex;
+  gap: 10px;
+}
+.purpleText{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  color: #512051;
+  height: 16px;
+  left: 40.67%;
+  right: 17.75%;
+  top: calc(50% - 16px/2);
+}
+.middle{
+  margin-left: 70px;
+}
+
+.last{
+  margin-left: 120px;
+  
+}
+.container__bottom{
+  display: flex;
+  gap: 50px;
+}
+
+.container__bottom__card__element img{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  left: 197px;
+  top: 474px;
+}
+.container__bottom__card{
+display: flex;
+width: 350px;
+height: 234px;
+left: 165px;
+top: 434px;
+background: #512051;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+padding: 30px;
+}
+.container__bottom__card__element__wrap {
+  padding: 5px;
+  color: white;
+}
+.container__bottom__card__element{
+  display: flex; 
+  gap:20px;
+}
+.whiteName{
+  color: #FFFFFF;
+}
+.verifiedBuyer{
+  color: #EE69A4;
+  margin-top: 5px;
+}
+.contaier__bottom__card__element__text{
+font-style: normal;
+font-size: 15px;
+line-height: 22px;
+letter-spacing: -0.303571px;
+color: #FFFFFF;
+margin-top: 30px;
+}
+
+.left{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.center{
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.right{
+  margin-top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.toggle{
+  width: 150px;
+  height: 30px;
+  margin-left: 42%;
+  margin-bottom: 60px;
+  color: purple;
+  background-color: white;
+  border-radius: 20px;
+  border-color: #512051;
+}
+
+.toggle:hover{
+  background-color: purple;
+  color: white;
+}
